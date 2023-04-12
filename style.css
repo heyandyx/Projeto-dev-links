@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 :root {
   --text-color: white;
   --bg-url: url(./assets/bg-mobile.jpg);
@@ -23,7 +24,8 @@
 }
 body {
   background: var(--bg-url) no-repeat top center/cover;
-  height: 100vh;
+  height: 100vh; 
+  
 }
 body * {
   font-family: "Inter", sans-serif;
@@ -32,8 +34,8 @@ body * {
 #container {
   width: 100%;
   max-width: min(80%, 488px);
-  margin: 56px auto 0px;
-  padding: auto 0 24px;
+  margin:  0 auto;
+  padding:  0 24px;
 }
 /* perfil */
 #profile {
