@@ -140,7 +140,7 @@ footer {
     --bg-url: url(./assets/bg-desktop.jpg);
   }
   .light {
-    --bg-url: url(./assetes/bg-desktop-light.jpg);
+    --bg-url: url(./assets/bg-desktop-light.jpg);
   }
 }
 @keyframes slide-in {
